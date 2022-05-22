@@ -1,0 +1,26 @@
+.input-field {
+  font-size: 1rem;
+  padding: 4px 0;
+  display: flex;
+  .title {
+    padding: 8px 12px;
+    min-width: 130px;
+    color: #6c757d;
+  }
+
+  .number-input {
+    width: 100%;
+    color: #212529;
+    border: 1px solid #ced4da;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+    &:focus {   
+      border-color: rgba(77, 163, 255, 0.8);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(77, 163, 255, 0.6);
+      outline: 0 none;
+    }
+  }
+}

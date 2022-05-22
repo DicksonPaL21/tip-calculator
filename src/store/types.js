@@ -1,0 +1,2 @@
+export const ADD_ACTION_TYPE = 'ADD_ACTION_TYPE';
+export const DELETE_ACTION_TYPE = 'DELETE_ACTION_TYPE';
